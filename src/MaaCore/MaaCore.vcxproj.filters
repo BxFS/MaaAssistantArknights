@@ -749,6 +749,7 @@
     <ClInclude Include="Task\Roguelike\RoguelikeInputSeedTaskPlugin.h">
       <Filter>Source\Task\Roguelike</Filter>
     </ClInclude>
+    <ClInclude Include="Task\Roguelike\RoguelikeDeepExplorationSpecialParameters.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vision\VisionHelper.cpp">
@@ -1263,5 +1264,6 @@
     <ClCompile Include="Task\Roguelike\RoguelikeInputSeedTaskPlugin.cpp">
       <Filter>Source\Task\Roguelike</Filter>
     </ClCompile>
+    <ClCompile Include="Task\Roguelike\RoguelikeDeepExplorationSpecialParameters.cpp" />
   </ItemGroup>
 </Project>
