@@ -116,7 +116,7 @@ bool asst::RoguelikeStageEncounterTaskPlugin::_run()
     }
 
     // 判断是否点击成功，成功进入对话后左上角的生命值会消失
-    sleep(500);
+    sleep(1000);
     image = ctrler()->get_image();
     if (hp(image) <= 0) {
         return true;
@@ -135,7 +135,7 @@ bool asst::RoguelikeStageEncounterTaskPlugin::_run()
                 return false;
             }
 
-            sleep(500);
+            sleep(1000);
             image = ctrler()->get_image();
             if (hp(image) <= 0) {
                 return true;
